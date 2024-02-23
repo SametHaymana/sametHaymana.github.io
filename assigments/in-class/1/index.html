@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Java Jam Coffee House</title>
+    <meta name="description" content="CENG 311 Inclass Activity 1" />
+    <style>
+      body {
+        background: url("https://upload.wikimedia.org/wikipedia/commons/9/9f/Caffe_Latte_cup.jpg")
+          no-repeat center center fixed;
+        background-size: cover;
+        color: #f0f0f0; /* Light grey text color for better visibility */
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        width: 100%;
+      }
+      .overlay {
+        /* Overlay styling */
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.9
+        ); /* Increasing the opacity for darker background */
+        padding: 20px;
+        height: 100%;
+        width: 100%;
+      }
+      h1,
+      h2,
+      a {
+        /* Ensuring headers and links are visible */
+        color: #ffffff;
+      }
+      a {
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      nav a {
+        color: #ffd700; /* Gold color for navigation links */
+        margin-right: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="overlay">
+      <nav>
+        <a href="#menu">Menu</a> | <a href="#music">Music</a> |
+        <a href="#location">Location</a>
+      </nav>
+
+      <h1>JavaJam Coffee House</h1>
+
+      <p>
+        We are a gourmet coffee shop that serves snacks, coffee, tea, and soft
+        drinks. Visit us to check out our:
+      </p>
+      <ul>
+        <li>Specialty Coffee and Tea</li>
+        <li>Bagels, Muffins, and Organic Snacks</li>
+        <li>Music and Poetry Readings</li>
+        <li>Open Mic Night</li>
+      </ul>
+
+      <h2 id="menu">Menu</h2>
+
+      <table>
+        <tr>
+          <th colspan="2">Coffee Selections</th>
+        </tr>
+        <tr>
+          <td>Just Java</td>
+          <td>
+            Regular house blend, decaffeinated coffee, or flavor of the day.<br />
+            Endless Cup $2.00
+          </td>
+        </tr>
+        <tr>
+          <td>Cafe au Lait</td>
+          <td>
+            House blended coffee infused into a smooth, steamed milk.<br />
+            <ul>
+              <li>Small $2.00</li>
+              <li>Medium $4.00</li>
+              <li>Large $6.00</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Cappuccino</td>
+          <td>
+            Sepecial Cappuccino with gold details<br />
+            Price $99.99
+          </td>
+        </tr>
+      </table>
+
+      <h2 id="music">Music</h2>
+
+      <p>
+        Enjoy our live music on the weekends. Check out our events calendar for
+        more information. Our cozy coffee house becomes a vibrant venue for
+        local artists and musicians. Come for the coffee, stay for the tunes.
+      </p>
+
+      <h2 id="location">Location</h2>
+
+      <p>
+        JavaJam is located at 8544 University City Blvd Charlotte, NC 28213. See
+        <a href="https://maps.app.goo.gl/7vieTKqpYH4Ewx1v5">Google Maps</a>
+        for directions.
+      </p>
+
+      <p>
+        <em
+          >Copyright &copy; JavaJam Coffee House<br />
+          manager@javajam.com
+          </em
+        >
+      </p>
+
+      <a href="http://validator.w3.org/check?uri=referer">Validate</a>
+    </div>
+  </body>
+</html>
