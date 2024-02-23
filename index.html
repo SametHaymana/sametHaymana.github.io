@@ -34,9 +34,33 @@
       .section {
         margin-bottom: 20px;
       }
+
+      .folder, .file {
+        margin-left: 20px;
+      }
+      .folder::before, .file::before {
+        content: "📁 ";
+        margin-right: 5px;
+      }
+      .file::before {
+        content: "📄 ";
+      }
     </style>
   </head>
   <body>
+
+
+    <div class="folder">assignment
+      <div class="folder">in-class
+        <div class="folder">1
+          
+          <div class="file"><a href="/assigments/in-class/1/index.html">coffyShop.html</a></div>
+        </div>
+        
+      </div>
+    </div>
+
+
     <div class="container">
       <div class="contact-info">
         <h1>Samet Haymana</h1>
@@ -59,6 +83,8 @@
       </div>
       <hr />
       <div class="section">
+
+        
         <p><h3>Bio</h3> 
             <br>
 
@@ -90,5 +116,12 @@
       </div>
       <!-- Add more sections as needed -->
     </div>
+
+
+
+
+    
+
+
   </body>
 </html>
