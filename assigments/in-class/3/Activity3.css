@@ -1,0 +1,45 @@
+.header,
+.content,
+.head {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.header,
+.content {
+  width: 70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.image img {
+  float: left;
+  margin-right: 20px;
+  width: 250px;
+  height: auto;
+}
+
+.main {
+  text-align: left;
+}
+
+.advertisement {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.head {
+  margin-top: 20px;
+  padding: 10px 0;
+  background-color: #eee;
+}
